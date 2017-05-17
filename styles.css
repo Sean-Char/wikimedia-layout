@@ -1,1 +1,64 @@
 
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 700px;
+  /*height: 250px;*/
+  /*background-color: lightgrey;*/
+  /*margin-left: 100px;*/
+  justify-content: center;
+}
+
+
+.flex-item {
+    /*background-color: cornflowerblue;*/
+}
+
+.text {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 38px;
+  line-height: 1.5em;
+}
+
+.welcome {
+  float: right;
+}
+
+img {
+  width: 135px;
+  height: 135px;
+  padding: 20px;
+}
+
+.footer-text {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: sans-serif;
+}
+
+.terms {
+  float: left;
+  margin-left: 37%;
+}
+
+.privacy {
+  float: right;
+  margin-right: 37%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 40%;
+  height: 100vh;
+  margin: 0 auto;
+}
